@@ -1,14 +1,43 @@
+aid: kpt
 name: kpt
-description: A package-centric toolchain that enables a configuration authoring, automation,
-  and delivery experience, which simplifies managing Kubernetes platforms and KRM-driven
-  infrastructure at scale by utilizing resource configuration as the artifact of record.
-url: https://kpt.dev/
+description: >-
+  kpt is a package-centric toolchain that enables a configuration authoring,
+  automation, and delivery experience, which simplifies managing Kubernetes
+  platforms and KRM-driven infrastructure at scale by utilizing resource
+  configuration as the artifact of record.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Kubernetes
-- Configuration Management
-- Infrastructure as Code
-- GitOps
-created: '2025'
-modified: '2025'
-apis: []
-common: []
+  - Kubernetes
+  - Configuration Management
+  - Infrastructure as Code
+  - GitOps
+url: https://raw.githubusercontent.com/api-evangelist/kpt/refs/heads/main/apis.yml
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: kpt:kpt
+    name: kpt
+    description: >-
+      kpt package-centric toolchain for Kubernetes configuration management
+      and delivery.
+    humanURL: https://kpt.dev/
+    tags:
+      - Kubernetes
+      - Configuration
+    properties:
+      - type: Documentation
+        url: https://kpt.dev/docs/
+      - type: Getting Started
+        url: https://kpt.dev/installation/
+common:
+  - type: Website
+    url: https://kpt.dev/
+  - type: Documentation
+    url: https://kpt.dev/docs/
+  - type: GitHub Organization
+    url: https://github.com/GoogleContainerTools/kpt
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
