@@ -29,14 +29,14 @@ apis:
     properties:
       - type: Documentation
         url: https://kpt.dev/docs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://kpt.dev/installation/
 common:
   - type: Website
     url: https://kpt.dev/
   - type: Documentation
     url: https://kpt.dev/docs/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/GoogleContainerTools/kpt
 maintainers:
   - FN: Kin Lane
