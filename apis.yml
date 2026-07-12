@@ -32,6 +32,8 @@ apis:
       - type: GettingStarted
         url: https://kpt.dev/installation/
 common:
+  - type: DomainSecurity
+    url: security/kpt-domain-security.yml
   - type: Website
     url: https://kpt.dev/
   - type: Documentation
