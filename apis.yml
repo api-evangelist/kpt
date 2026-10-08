@@ -55,6 +55,12 @@ apis:
       - type: GettingStarted
         url: https://kpt.dev/installation/
 common:
+  - type: Plans
+    url: plans/kpt-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/kpt-rate-limits.yml
+  - type: FinOps
+    url: finops/kpt-finops.yml
   - type: DomainSecurity
     url: security/kpt-domain-security.yml
   - type: Website
